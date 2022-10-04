@@ -78,35 +78,6 @@ public class PositioningCor {
 
 	}
 
-
-		/*for (int i = 0; i < h; i++) {
-			for (int j = 0; j < w; j++) {
-				if (ABmap[i][j] == AB) {
-					if (i != 0 && map[i - 1][j] == '.') {
-						map[i - 1][j] = AB;
-						end = 1;
-					} //上の値の処理
-					if (j != 0 && map[i][j - 1] == '.') {
-						map[i][j - 1] = AB;
-						end = 1;
-					} //左の値の処理
-					if (j != W - 1 && map[i][j + 1] == '.') {
-						map[i][j + 1] = AB;
-						end = 1;
-					} //右の値の処理
-					if (i != H - 1 && map[i + 1][j] == '.') {
-						map[i + 1][j] = AB;
-						end = 1;
-					} //下の値の処理
-				}
-
-			}
-
-		}*/
-		
-		
-	
-
 	//@SuppressWarnings("unchecked")
 	public static int turn(int H, int W, char AB, char[][] map, ArrayList<Integer> xL,ArrayList<Integer> yL ) {
 		int end = 0;
