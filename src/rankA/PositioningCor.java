@@ -78,7 +78,7 @@ public class PositioningCor {
 
 	}
 
-	//@SuppressWarnings("unchecked")
+	@SuppressWarnings("unchecked")
 	public static int turn(int H, int W, char AB, char[][] map, ArrayList<Integer> xL,ArrayList<Integer> yL ) {
 		int end = 0;
 		ArrayList<Integer> txL = (ArrayList<Integer>) xL.clone();
